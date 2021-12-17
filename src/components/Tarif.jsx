@@ -1,4 +1,4 @@
-import '.Tarif.css';
+import './Tarif.css';
 
 function Tarif() {
     return(
