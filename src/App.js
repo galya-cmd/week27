@@ -1,6 +1,6 @@
 
 
-import './App.css';
+import './App.scss';
 import Tarif from './components/Tarif.jsx';
 import './components/Tarif.scss';
 
