@@ -1,13 +1,14 @@
 import './Tarif.css';
 
 function Tarif() {
+  const {name,price,speed,text} = this.props;
     return(
     
       <div className="cart">
-      <div className="tariff-name">Безлимитный 300</div>
-      <div className="priсe">300руб.</div>
-      <div className="speed">до 10 Мбит/сек</div>
-      <div className="text">Обьем включенного трафика не ограничен</div> 
+      <div className="tariff-name">{name}</div>
+      <div className="priсe">{price}</div>
+      <div className="speed">{speed}</div>
+      <div className="text">{text}</div> 
       </div>
       );
 }

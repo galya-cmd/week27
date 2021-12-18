@@ -16,9 +16,9 @@ function App () {
 
     <div className="App">
       {
-        tarifs.map((tarif)) => <Tarif name={tarif.name} price= {tarif.price} speed = {tarif.speed} text = {tarif.text}></Tarif>
+        tarifs.map((tarif) => <Tarif name={tarif.name} price= {tarif.price} speed = {tarif.speed} text = {tarif.text}></Tarif>
+        )
       }
-      
       
     </div>
     </>
