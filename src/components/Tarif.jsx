@@ -1,6 +1,8 @@
+import React from 'react';
 import './Tarif.css';
 
-function Tarif() {
+class Tarif extends React.Component {
+  render(){
   const {name,price,speed,text} = this.props;
     return(
     
@@ -11,6 +13,7 @@ function Tarif() {
       <div className="text">{text}</div> 
       </div>
       );
+    }  
 }
 
 export default Tarif;
