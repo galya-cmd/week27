@@ -4,6 +4,9 @@ import './Tarif.css';
 class Tarif extends React.Component {
   render(){
   const {name,price,speed,text} = this.props;
+  
+  
+  
     return(
     
       <div className="cart">
