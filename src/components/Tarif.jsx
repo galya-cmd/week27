@@ -1,5 +1,5 @@
 import React from 'react';
-import './Tarif.scss';
+import './Tarif.css';
 
 class Tarif extends React.Component {
   render(){
